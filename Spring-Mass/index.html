@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity Web Player | Physics Project</title>
+    <title>Unity Web Player | Physics Project for AP Physics Final</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1080 height=1080 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=720 height=1280 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Physics Project</div>
+        <div id="unity-build-title">Physics Project for AP Physics Final</div>
       </div>
     </div>
     <script>
@@ -59,8 +59,8 @@
         frameworkUrl: buildUrl + "/Spring-Mass.framework.js.unityweb",
         codeUrl: buildUrl + "/Spring-Mass.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "Physics Project",
+        companyName: "ShellSharp",
+        productName: "Physics Project for AP Physics Final",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -98,8 +98,8 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "1080px";
-        canvas.style.height = "1080px";
+        canvas.style.width = "720px";
+        canvas.style.height = "1280px";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
